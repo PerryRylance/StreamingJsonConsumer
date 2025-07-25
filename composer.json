@@ -12,9 +12,13 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "^11"
+        "phpunit/phpunit": "^11",
+        "ulrichsg/getopt-php": "^4.0",
+        "nesbot/carbon": "^3.10"
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit"
+        "test": "./vendor/bin/phpunit",
+        "examples": "php ./examples/bootstrap.php"
+
     }
 }

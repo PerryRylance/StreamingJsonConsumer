@@ -3,3 +3,4 @@ vendor
 temp.php
 temp/*
 !temp/.gitkeep
+examples/cities.geojson
