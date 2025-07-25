@@ -1,0 +1,21 @@
+{
+    "name": "Search test",
+    "children": [
+        {
+            "label": "first"
+        },
+        {
+            "label": "target",
+            "goodies": {
+                "match": true
+            },
+            "test": [
+                123,
+                "yes"
+            ]
+        },
+        {
+            "label": "last"
+        }
+    ]
+}
